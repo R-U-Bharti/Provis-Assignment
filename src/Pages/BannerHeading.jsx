@@ -59,7 +59,7 @@ const BannerHeading = () => {
                 className={'h-screen w-screen flex justify-center items-center backdrop-brightness-50 z-50'}
             >
 
-                <div className='bg-white p-4 flex flex-col items-center w-full md:m-0 m-2 md:w-[50vw] md:h-[70vh] z-50 animate__animated animate__zoomIn amimate__faster'>
+                <div className='bg-white p-4 flex flex-col items-center w-full h-[50vh] md:m-0 m-2 md:w-[50vw] md:h-[70vh] z-50 animate__animated animate__zoomIn amimate__faster'>
 
                     <iframe className='w-full h-full' src="https://www.youtube.com/embed/SkU_Rn9c5q8?si=lcipOBA89s57Q9jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <button onClick={() => setModalOpen(!modalOpen)} className='text-sm px-3 py-1 border border-red-400 cursor-pointer bg-red-100 hover:bg-red-500 hover:text-white mt-4'>Close</button>
